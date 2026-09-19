@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=4">
+<link rel="stylesheet" href="css/style.css?v=5">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -95,13 +95,19 @@
       <p>Exploring the impact of model and study design choices on both predictive performance and inferential rigor.</p>
     </div>
     <ul class="projects">
-      <li class="project no-media">
+      <li class="project">
+        <figure class="project-media">
+          <img src="assets/projects/trial-schema.svg" alt="Trial schema for the Phase II protocol" loading="lazy">
+        </figure>
         <div class="project-body">
           <span class="project-year">2026</span>
           <h4>Phase II Clinical Trial Protocol</h4>
-          <p>A Phase II obesity drug RCT protocol, n=68 across a four-arm 1:1:1:1 randomization, grounded in recent Phase II and III obesity trial literature. ANCOVA-based primary analysis with Holm-adjusted pairwise comparisons, plus a full statistical analysis plan.</p>
-          <p class="project-note">The protocol is a University of Virginia document and is not publicly available.</p>
-          <ul class="stack"><li>RCT design</li><li>power analysis</li><li>ANCOVA</li></ul>
+          <p>A double-blind, placebo-controlled Phase II protocol for an obesity drug, randomizing 68 patients 1:1:1:1 across three doses and placebo at 17 per arm. Sized as 20% of a 328-patient full-scale estimate at 80% power and d = 0.49, inflated for 20% annual dropout compounded over two years. The primary endpoint is percent change in body weight at week 104, analyzed by ANCOVA with treatment arm as the factor and baseline weight as a covariate, with Holm-adjusted pairwise comparisons against placebo. Built with Isabel Xiao and Rowan Rosenblum.</p>
+          <p class="project-note">The full written protocol is a University of Virginia course document and is not publicly available. The design presentation is in the repository.</p>
+          <ul class="stack"><li>RCT design</li><li>power analysis</li><li>ANCOVA</li><li>ITT</li></ul>
+          <p class="btn-row">
+            <a class="btn" href="https://github.com/maxvanzandt/Phase-II-Clinical-Trial-Protocol">Repository</a>
+          </p>
         </div>
       </li>
       <li class="project">
@@ -315,6 +321,6 @@
 </div></section>
 </main>
 <footer class="footer"><div class="wrap"><p>Built and maintained by Maximilian Van Zandt. Hosted on GitHub Pages.</p></div></footer>
-<script src="js/main.js?v=4"></script>
+<script src="js/main.js?v=5"></script>
 </body>
 </html>

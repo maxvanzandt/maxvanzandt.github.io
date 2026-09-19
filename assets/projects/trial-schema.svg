@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 470" width="620" height="470" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img" aria-label="Trial schema: 68 patients randomized 1 to 1 to 1 to 1 across three ariliverine doses and placebo, with primary endpoint at week 104.">
+<rect width="620" height="470" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#D3D3CB"/></marker></defs>
+<text x="310.0" y="24" font-size="10.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0.06em">Phase II  ·  double-blind  ·  placebo-controlled</text>
+<rect x="145.0" y="36" width="330" height="38" rx="4" fill="#FFFFFF" stroke="#D3D3CB" stroke-width="1"/>
+<text x="310.0" y="53" font-size="11.5" fill="#18202B" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">Adults aged 30 and over with obesity and prediabetes</text>
+<text x="310.0" y="67" font-size="10" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">BMI ≥ 30, one prior unsuccessful weight-loss attempt</text>
+<line x1="310.0" y1="74" x2="310.0" y2="100" stroke="#D3D3CB" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="202.0" y="102" width="216" height="42" rx="4" fill="#F4F7FA" stroke="#0072B2" stroke-width="1.3"/>
+<text x="310.0" y="120" font-size="12.5" fill="#18202B" font-weight="600" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">Randomized 1:1:1:1</text>
+<text x="310.0" y="135" font-size="11" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">n = 68</text>
+<line x1="91.0" y1="176" x2="529.0" y2="176" stroke="#D3D3CB" stroke-width="1.2"/>
+<line x1="310.0" y1="144" x2="310.0" y2="176" stroke="#D3D3CB" stroke-width="1.2"/>
+<line x1="91.0" y1="176" x2="91.0" y2="192" stroke="#D3D3CB" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="237.0" y1="176" x2="237.0" y2="192" stroke="#D3D3CB" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="383.0" y1="176" x2="383.0" y2="192" stroke="#D3D3CB" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="529.0" y1="176" x2="529.0" y2="192" stroke="#D3D3CB" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="24" y="196" width="134" height="62" rx="4" fill="#FFFFFF" stroke="#D3D3CB" stroke-width="1"/>
+<rect x="24" y="196" width="134" height="4" rx="2" fill="#0072B2" opacity="0.28"/>
+<text x="91.0" y="221" font-size="11.5" fill="#18202B" font-weight="600" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">Ariliverine</text>
+<text x="91.0" y="236" font-size="10.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">10 mg</text>
+<text x="91.0" y="250" font-size="10.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">n = 17</text>
+<rect x="170" y="196" width="134" height="62" rx="4" fill="#FFFFFF" stroke="#D3D3CB" stroke-width="1"/>
+<rect x="170" y="196" width="134" height="4" rx="2" fill="#0072B2" opacity="0.55"/>
+<text x="237.0" y="221" font-size="11.5" fill="#18202B" font-weight="600" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">Ariliverine</text>
+<text x="237.0" y="236" font-size="10.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">20 mg</text>
+<text x="237.0" y="250" font-size="10.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">n = 17</text>
+<rect x="316" y="196" width="134" height="62" rx="4" fill="#FFFFFF" stroke="#D3D3CB" stroke-width="1"/>
+<rect x="316" y="196" width="134" height="4" rx="2" fill="#0072B2" opacity="0.85"/>
+<text x="383.0" y="221" font-size="11.5" fill="#18202B" font-weight="600" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">Ariliverine</text>
+<text x="383.0" y="236" font-size="10.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">30 mg</text>
+<text x="383.0" y="250" font-size="10.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">n = 17</text>
+<rect x="462" y="196" width="134" height="62" rx="4" fill="#FFFFFF" stroke="#D3D3CB" stroke-width="1"/>
+<rect x="462" y="196" width="134" height="4" rx="2" fill="#7A838F" opacity="0.5"/>
+<text x="529.0" y="221" font-size="11.5" fill="#18202B" font-weight="600" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">Placebo</text>
+<text x="529.0" y="236" font-size="10.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">+ lifestyle counseling</text>
+<text x="529.0" y="250" font-size="10.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">n = 17</text>
+<text x="310.0" y="274" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">30 mg arm retained under a stopping rule if renal adverse events exceed the interim threshold</text>
+<rect x="40.0" y="312" width="520.0" height="8" fill="#0072B2" opacity="0.16"/>
+<line x1="40" y1="316" x2="580" y2="316" stroke="#D3D3CB" stroke-width="1.2"/>
+<line x1="40.0" y1="311" x2="40.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<line x1="60.0" y1="311" x2="60.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<line x1="80.0" y1="311" x2="80.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<line x1="100.0" y1="311" x2="100.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<line x1="160.0" y1="311" x2="160.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<line x1="220.0" y1="311" x2="220.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<line x1="300.0" y1="311" x2="300.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<line x1="430.0" y1="311" x2="430.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<line x1="560.0" y1="311" x2="560.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<line x1="580.0" y1="311" x2="580.0" y2="321" stroke="#55606E" stroke-width="1"/>
+<circle cx="560.0" cy="316" r="4.5" fill="#D55E00"/>
+<text x="580" y="292" font-size="10" fill="#D55E00" font-weight="600" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">primary endpoint</text>
+<text x="580" y="305" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">% weight change at week 104</text>
+<text x="40" y="305" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="start" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">randomization</text>
+<text x="40.0" y="334" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">0</text>
+<text x="60.0" y="334" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">4</text>
+<text x="80.0" y="334" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">8</text>
+<text x="100.0" y="334" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">12</text>
+<text x="160.0" y="334" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">24</text>
+<text x="220.0" y="334" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">36</text>
+<text x="300.0" y="334" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">52</text>
+<text x="560.0" y="334" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">104</text>
+<text x="40" y="350" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="start" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">dose escalation at weeks 4 and 8</text>
+<text x="310" y="350" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">weeks</text>
+<text x="580" y="350" font-size="9.5" fill="#55606E" font-weight="400" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">off-drug safety follow-up to week 108</text>
+<rect x="24" y="372" width="572" height="74" rx="4" fill="#FAFAF7" stroke="#D3D3CB" stroke-width="1"/>
+<text x="310.0" y="392" font-size="11.5" fill="#18202B" font-weight="600" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" letter-spacing="0">Statistical analysis plan</text>
+<text x="310.0" y="410" font-size="10" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">ANCOVA on percent weight change, treatment arm as factor, baseline weight as covariate</text>
+<text x="310.0" y="425" font-size="10" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">Holm-adjusted pairwise comparisons against placebo  ·  two-sided α = 0.05</text>
+<text x="310.0" y="440" font-size="10" fill="#55606E" font-weight="400" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" letter-spacing="0">Intention to treat  ·  missing data by multiple imputation</text>
+</svg>
