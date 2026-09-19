@@ -87,10 +87,12 @@
           building it.
         </p>
         <p>
-          I have built survival models on satellite IoT and aviation data at Iridium, led a
-          consulting team serving healthcare nonprofits at Biokind Analytics, led UVA's NFL
-          Big Data Bowl entry through the Sports Analytics and Statistics Laboratory, and
-          taught statistics as a TA.
+          At Iridium I built an ML model predicting global flight routes that cut flight data
+          pulls by 75%, and ran a survival analysis that surfaced subscriber provisioning lags
+          of over 200 days, which fed into supply chain planning. At Biokind Analytics I lead
+          statistical consulting for healthcare nonprofits, on questions like acute malnutrition
+          relapse in children. I also led UVA's NFL Big Data Bowl entry through the Sports
+          Analytics and Statistics Laboratory, and taught statistics as a TA.
         </p>
         <p>
           Away from the desk I have played percussion for fifteen years. I lead a band that
@@ -147,13 +149,13 @@
           <div class="project-body">
             <h3>Album Covers and Billboard Success</h3>
             <p>
-              Predicts Billboard 200 chart performance from the visual features of album
-              cover art. The pipeline collects covers and chart data, engineers color and
-              composition features from the images, then fits supervised models against
-              chart outcomes. Built with a team of four.
+              Predicts Billboard 200 success from cover art alone. Engineered a 70 dimensional
+              visual feature space across 2,084 album covers using scikit-image and YOLO face
+              detection, then fit L1 regularized logistic regression for 0.87 ROC-AUC. Texture,
+              edge density, and the presence of a human face carried the most signal. Team project.
             </p>
             <ul class="stack">
-              <li>Python</li><li>scikit-learn</li><li>computer vision</li><li>APIs</li>
+              <li>Python</li><li>scikit-learn</li><li>scikit-image</li><li>YOLO</li><li>APIs</li>
             </ul>
             <p class="links">
               <a href="https://github.com/maxvanzandt/Album-Covers-and-Billboard-Success">Repository</a>
@@ -167,12 +169,57 @@
             <span class="kind">Course project</span>
           </div>
           <div class="project-body">
+            <h3>Drumming Styles: A Distributional Feature Analysis</h3>
+            <p>
+              Asks whether individual drummers have a measurable statistical signature. Built a
+              32 dimensional feature space from 446,312 MIDI drum hits across 10 drummers, then
+              applied Gaussian KDE, PCA capturing 63.8% of variance, and 3 state hidden Markov
+              models to surface drummer specific persistence in playing state. Fifteen years
+              behind a kit turned out to be useful for feature design.
+            </p>
+            <ul class="stack">
+              <li>Python</li><li>R</li><li>HMM</li><li>PCA</li><li>KDE</li>
+            </ul>
+            <p class="links">
+              <a href="https://github.com/maxvanzandt/Drumming-Styles-A-Distributional-Feature-Analysis">Repository</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2025</span>
+            <span class="kind">Course project</span>
+          </div>
+          <div class="project-body">
+            <h3>Impact of Recession on Housing Starts Forecasting</h3>
+            <p>
+              Compares time domain and frequency domain forecasting through the 2008 financial
+              crisis. A SARIMA(1,0,1)(1,0,1)[12] fit showed regime dependent forecast failure,
+              and spectral analysis located a shift in the underlying cycle from roughly 8 to
+              10.4 years. Co-authored with Sami Adam.
+            </p>
+            <ul class="stack">
+              <li>R</li><li>SARIMA</li><li>spectral analysis</li>
+            </ul>
+            <p class="links">
+              <a href="https://github.com/maxvanzandt/Impact-of-Recession-on-Housing-Starts-Forecasting">Repository</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2025</span>
+            <span class="kind">Course project</span>
+          </div>
+          <div class="project-body">
             <h3>Kernel CCA for Market Analysis</h3>
             <p>
               Applies kernel canonical correlation analysis to nine macroeconomic and market
-              series from FRED, looking for nonlinear association that linear methods miss.
-              A linear CCA baseline with a Wilks' Lambda test runs first, so the kernel
-              extension has something to beat.
+              series from FRED, looking for nonlinear association that linear methods miss. A
+              linear CCA baseline with a Wilks' Lambda test runs first, so the kernel extension
+              has something to beat.
             </p>
             <ul class="stack">
               <li>R</li><li>kernel methods</li><li>FRED</li>
@@ -193,8 +240,8 @@
             <p>
               Follows five seasons of UVA men's lacrosse through a change in offensive
               coordinator, using goal differential, shooting and extra man efficiency, the
-              distribution of scoring across players, and hustle metrics. Filter by
-              conference and metric to check the argument yourself.
+              distribution of scoring across players, and hustle metrics. Filter by conference
+              and metric to check the argument yourself instead of taking my conclusions on faith.
             </p>
             <ul class="stack">
               <li>R</li><li>Shiny</li><li>plotly</li><li>ggplot2</li>
@@ -214,11 +261,11 @@
           <div class="project-body">
             <h3>Publication Bias Simulation</h3>
             <p>
-              Turns an argument from the philosopher Liam Kofi Bright into a working model.
-              If journals reward significant findings, what does the published record look
-              like next to the research that was actually conducted? The publication model
-              follows Moss and De Bin (2021). It illustrates a mechanism rather than
-              estimating real publication rates.
+              Turns an argument from the philosopher Liam Kofi Bright into a working model. If
+              journals reward significant findings, what does the published record look like
+              next to the research that was actually conducted? The publication model follows
+              Moss and De Bin (2021). It illustrates a mechanism rather than estimating real
+              publication rates.
             </p>
             <ul class="stack">
               <li>R</li><li>Shiny</li><li>simulation</li>
@@ -238,9 +285,9 @@
           <div class="project-body">
             <h3>P-Hacking Under Publication Pressure</h3>
             <p>
-              A companion piece where you play the researcher. Pick an analysis strategy,
-              set the publication pressure, and watch significance appear when the true
-              effect is exactly zero. The p-hacking model also follows Moss and De Bin (2021).
+              A companion piece where you play the researcher. Pick an analysis strategy, set
+              the publication pressure, and watch significance appear when the true effect is
+              exactly zero. The p-hacking model also follows Moss and De Bin (2021).
             </p>
             <ul class="stack">
               <li>R</li><li>Shiny</li><li>simulation</li>
@@ -255,21 +302,21 @@
         <li class="project">
           <div class="project-rail">
             <span class="year">2025</span>
-            <span class="kind">Course project</span>
+            <span class="kind">Team lead, SASL</span>
           </div>
           <div class="project-body">
-            <h3>Drumming Styles: A Distributional Feature Analysis</h3>
+            <h3>Beyond the Snap: Quantifying Pre-Snap Motion</h3>
             <p>
-              Compares the distributional signatures of drumming styles using the Groove MIDI
-              Dataset, extracting timing and velocity features from roughly 1,150 recorded
-              performances. Fifteen years behind a kit turned out to be useful for feature
-              design.
+              UVA Sports Analytics and Statistics Laboratory's NFL Big Data Bowl submission,
+              which I led. Uses pre-snap player tracking data to quantify the strategic value of
+              motion, combining machine learning with visualization. Several of the metrics were
+              adopted into the lab's wider research portfolio.
             </p>
             <ul class="stack">
-              <li>Python</li><li>R</li><li>MIDI</li>
+              <li>R</li><li>player tracking</li><li>machine learning</li>
             </ul>
             <p class="links">
-              <a href="https://github.com/maxvanzandt/Drumming-Styles-A-Distributional-Feature-Analysis">Repository</a>
+              <a href="https://github.com/maxvanzandt/SASL-Big-Data-Bowl-2025">Repository</a>
             </p>
           </div>
         </li>
@@ -277,14 +324,36 @@
         <li class="project">
           <div class="project-rail">
             <span class="year">2024</span>
-            <span class="kind">Course project</span>
+            <span class="kind">Simulation</span>
+          </div>
+          <div class="project-body">
+            <h3>SportsSimulations</h3>
+            <p>
+              A simulation framework for NFL fourth and goal decisions. Combines logistic and
+              multinomial regression, mixture models, and win probability modeling to work out
+              when a team should go for it rather than kick.
+            </p>
+            <ul class="stack">
+              <li>R</li><li>mixture models</li><li>win probability</li>
+            </ul>
+            <p class="links">
+              <a href="https://github.com/maxvanzandt/SportsSimulations">Repository</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2024</span>
+            <span class="kind">ASA competition</span>
           </div>
           <div class="project-body">
             <h3>Statewide Mortality and Medicaid</h3>
             <p>
               Looks at the relationship between state Medicaid policy and mortality outcomes
-              using FRED, CDC, KFF, and Census data. Cleaning is separated from analysis so
-              the whole thing can be rerun from raw sources.
+              using FRED, CDC, KFF, and Census data. Submitted to the ASA Undergraduate
+              Statistics Class Project Competition. Cleaning is separated from analysis so the
+              whole thing can be rerun from raw sources.
             </p>
             <ul class="stack">
               <li>R</li><li>public health data</li>
@@ -307,32 +376,29 @@
         <div class="skillset">
           <h3>Methods</h3>
           <ul class="tags">
-            <li>Causal inference</li><li>Experimental design</li><li>A/B testing</li>
-            <li>Nonparametric methods</li><li>Survival analysis</li><li>Time series</li>
-            <li>Bayesian statistics</li><li>Statistical consulting</li>
+            <li>Causal inference</li><li>Experimental design</li><li>A/B/n testing</li>
+            <li>Power analysis</li><li>Hypothesis testing</li><li>Nonparametric methods</li>
+            <li>Survival analysis</li><li>Time series and spectral analysis</li>
+            <li>State space modeling</li><li>Clustering</li><li>Bayesian statistics</li>
           </ul>
         </div>
         <div class="skillset">
           <h3>Languages</h3>
-          <ul class="tags"><li>Python</li><li>R</li><li>SQL</li><li>Bash</li></ul>
+          <ul class="tags"><li>R</li><li>Python</li><li>SQL</li><li>Bash</li></ul>
         </div>
         <div class="skillset">
-          <h3>Python</h3>
+          <h3>Libraries</h3>
           <ul class="tags">
-            <li>pandas</li><li>numpy</li><li>scipy</li><li>scikit-learn</li><li>PyTorch</li>
-          </ul>
-        </div>
-        <div class="skillset">
-          <h3>R</h3>
-          <ul class="tags">
+            <li>pandas</li><li>numpy</li><li>statsmodels</li><li>scikit-learn</li>
+            <li>DoWhy</li><li>causalML</li><li>PyTorch</li><li>TensorFlow</li>
             <li>tidyverse</li><li>Shiny</li><li>ggplot2</li><li>plotly</li>
-            <li>caret</li><li>xgboost</li><li>randomForest</li>
           </ul>
         </div>
         <div class="skillset">
           <h3>Tooling</h3>
           <ul class="tags">
-            <li>Git</li><li>Quarto</li><li>LaTeX</li><li>Linux and WSL</li><li>VS Code</li>
+            <li>Git</li><li>Quarto</li><li>LaTeX</li><li>Snowflake</li><li>AWS</li>
+            <li>Power BI</li><li>Tableau</li><li>Linux and WSL</li>
           </ul>
         </div>
       </div>
@@ -350,8 +416,8 @@
           or why your A/B test is underpowered.
         </p>
         <ul class="contact-list">
-          <li><a href="mailto:REPLACE_WITH_EMAIL">Email</a></li>
-          <li><a href="https://www.linkedin.com/in/REPLACE_WITH_LINKEDIN">LinkedIn</a></li>
+          <li><a href="mailto:maxvzandt@gmail.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/maxvanzandt">LinkedIn</a></li>
           <li><a href="https://github.com/maxvanzandt">GitHub</a></li>
           <li><a href="assets/resume.pdf">Resume (PDF)</a></li>
         </ul>
