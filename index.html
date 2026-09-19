@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Max Van Zandt, Applied Statistician</title>
+<meta name="description" content="Max Van Zandt, applied statistician working on causal inference and experimentation. MA in Statistics and Data Science, UC Berkeley.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="mark" href="#top">MVZ</a>
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="assets/resume.pdf">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== Hero ===== -->
+  <section id="top" class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <h1>Max Van Zandt</h1>
+        <p class="lede">Applied statistician working on causal inference and experimentation.</p>
+        <p class="standfirst">
+          I care about the part of the work that decides what a team actually does: designing
+          the experiment, estimating an effect that holds up, and being clear about what the
+          data cannot tell you.
+        </p>
+        <p class="meta">
+          MA in Statistics and Data Science, UC Berkeley, May 2027.
+          BS in Statistics, University of Virginia.
+        </p>
+      </div>
+
+      <figure class="hero-figure">
+        <svg id="effect-plot" viewBox="0 0 560 220" role="img"
+             aria-label="Two overlapping distributions, control and treatment, with the difference between their means marked.">
+          <g class="axis">
+            <line x1="20" y1="180" x2="540" y2="180"></line>
+          </g>
+          <path id="curve-control-fill" class="fill control" d=""></path>
+          <path id="curve-treat-fill" class="fill treat" d=""></path>
+          <path id="curve-control" class="curve control" d=""></path>
+          <path id="curve-treat" class="curve treat" d=""></path>
+          <line id="mean-control" class="mean control" x1="0" y1="0" x2="0" y2="0"></line>
+          <line id="mean-treat" class="mean treat" x1="0" y1="0" x2="0" y2="0"></line>
+          <g id="delta" class="delta">
+            <line x1="0" y1="0" x2="0" y2="0"></line>
+          </g>
+        </svg>
+        <figcaption>Control and treatment. The gap is the whole job.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="wrap split">
+      <h2>About</h2>
+      <div class="split-body">
+        <p>
+          I am finishing an MA in Statistics and Data Science at UC Berkeley, where my
+          coursework is built around causal inference, experimentation, and nonparametric
+          methods. I want to work where the statistics is load bearing for the business
+          rather than decorative, which in practice means product data science or
+          biostatistics.
+        </p>
+        <p>
+          Before Berkeley I finished a BS in Statistics at UVA with a minor in philosophy,
+          mostly analytic moral philosophy. The philosophy shows up more than you would
+          expect: two of the projects below started as an argument I wanted to test by
+          building it.
+        </p>
+        <p>
+          I have built survival models on satellite IoT and aviation data at Iridium, led a
+          consulting team serving healthcare nonprofits at Biokind Analytics, led UVA's NFL
+          Big Data Bowl entry through the Sports Analytics and Statistics Laboratory, and
+          taught statistics as a TA.
+        </p>
+        <p>
+          Away from the desk I have played percussion for fifteen years. I lead a band that
+          has opened for Neon Trees and releases music on Spotify, and I am an Eagle Scout.
+        </p>
+
+        <ul class="roles">
+          <li>
+            <span class="role">Peer Ambassador</span>
+            <span class="org">UC Berkeley, MA Statistics and Data Science</span>
+            <span class="when">2026&ndash;27</span>
+          </li>
+          <li>
+            <span class="role">Team Lead and Data Analyst</span>
+            <span class="org">Biokind Analytics</span>
+            <span class="when">Ongoing</span>
+          </li>
+          <li>
+            <span class="role">Team Lead, NFL Big Data Bowl</span>
+            <span class="org">UVA Sports Analytics and Statistics Laboratory</span>
+            <span class="when"></span>
+          </li>
+          <li>
+            <span class="role">Statistics Teaching Assistant</span>
+            <span class="org">University of Virginia</span>
+            <span class="when"></span>
+          </li>
+          <li>
+            <span class="role">Data Science Intern</span>
+            <span class="org">Iridium Satellite Communications</span>
+            <span class="when"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <p class="section-note">
+        Code and write ups live in their own repositories. The interactive pieces run live,
+        so you can push on the analysis instead of reading my conclusions.
+      </p>
+
+      <ol class="projects">
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2026</span>
+            <span class="kind">Capstone, STAT 4996</span>
+          </div>
+          <div class="project-body">
+            <h3>Album Covers and Billboard Success</h3>
+            <p>
+              Predicts Billboard 200 chart performance from the visual features of album
+              cover art. The pipeline collects covers and chart data, engineers color and
+              composition features from the images, then fits supervised models against
+              chart outcomes. Built with a team of four.
+            </p>
+            <ul class="stack">
+              <li>Python</li><li>scikit-learn</li><li>computer vision</li><li>APIs</li>
+            </ul>
+            <p class="links">
+              <a href="https://github.com/maxvanzandt/Album-Covers-and-Billboard-Success">Repository</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2025</span>
+            <span class="kind">Course project</span>
+          </div>
+          <div class="project-body">
+            <h3>Kernel CCA for Market Analysis</h3>
+            <p>
+              Applies kernel canonical correlation analysis to nine macroeconomic and market
+              series from FRED, looking for nonlinear association that linear methods miss.
+              A linear CCA baseline with a Wilks' Lambda test runs first, so the kernel
+              extension has something to beat.
+            </p>
+            <ul class="stack">
+              <li>R</li><li>kernel methods</li><li>FRED</li>
+            </ul>
+            <p class="links">
+              <a href="https://github.com/maxvanzandt/Kernel-CCA-for-Market-Analysis">Repository</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2025</span>
+            <span class="kind">Interactive</span>
+          </div>
+          <div class="project-body">
+            <h3>The Evolution of Virginia Lacrosse</h3>
+            <p>
+              Follows five seasons of UVA men's lacrosse through a change in offensive
+              coordinator, using goal differential, shooting and extra man efficiency, the
+              distribution of scoring across players, and hustle metrics. Filter by
+              conference and metric to check the argument yourself.
+            </p>
+            <ul class="stack">
+              <li>R</li><li>Shiny</li><li>plotly</li><li>ggplot2</li>
+            </ul>
+            <p class="links">
+              <a href="https://maxvanzandt.shinyapps.io/Visual-Storytelling-Portfolio">Run it live</a>
+              <a href="https://github.com/maxvanzandt/virginia-lacrosse-analysis">Repository</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2025</span>
+            <span class="kind">Interactive</span>
+          </div>
+          <div class="project-body">
+            <h3>Publication Bias Simulation</h3>
+            <p>
+              Turns an argument from the philosopher Liam Kofi Bright into a working model.
+              If journals reward significant findings, what does the published record look
+              like next to the research that was actually conducted? The publication model
+              follows Moss and De Bin (2021). It illustrates a mechanism rather than
+              estimating real publication rates.
+            </p>
+            <ul class="stack">
+              <li>R</li><li>Shiny</li><li>simulation</li>
+            </ul>
+            <p class="links">
+              <a href="https://maxvanzandt.shinyapps.io/Visual-Storytelling-Portfolio">Run it live</a>
+              <a href="https://github.com/maxvanzandt/publication-bias-simulation">Repository</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2025</span>
+            <span class="kind">Interactive</span>
+          </div>
+          <div class="project-body">
+            <h3>P-Hacking Under Publication Pressure</h3>
+            <p>
+              A companion piece where you play the researcher. Pick an analysis strategy,
+              set the publication pressure, and watch significance appear when the true
+              effect is exactly zero. The p-hacking model also follows Moss and De Bin (2021).
+            </p>
+            <ul class="stack">
+              <li>R</li><li>Shiny</li><li>simulation</li>
+            </ul>
+            <p class="links">
+              <a href="https://maxvanzandt.shinyapps.io/Visual-Storytelling-Portfolio">Run it live</a>
+              <a href="https://github.com/maxvanzandt/p-hacking-simulation">Repository</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2025</span>
+            <span class="kind">Course project</span>
+          </div>
+          <div class="project-body">
+            <h3>Drumming Styles: A Distributional Feature Analysis</h3>
+            <p>
+              Compares the distributional signatures of drumming styles using the Groove MIDI
+              Dataset, extracting timing and velocity features from roughly 1,150 recorded
+              performances. Fifteen years behind a kit turned out to be useful for feature
+              design.
+            </p>
+            <ul class="stack">
+              <li>Python</li><li>R</li><li>MIDI</li>
+            </ul>
+            <p class="links">
+              <a href="https://github.com/maxvanzandt/Drumming-Styles-A-Distributional-Feature-Analysis">Repository</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-rail">
+            <span class="year">2024</span>
+            <span class="kind">Course project</span>
+          </div>
+          <div class="project-body">
+            <h3>Statewide Mortality and Medicaid</h3>
+            <p>
+              Looks at the relationship between state Medicaid policy and mortality outcomes
+              using FRED, CDC, KFF, and Census data. Cleaning is separated from analysis so
+              the whole thing can be rerun from raw sources.
+            </p>
+            <ul class="stack">
+              <li>R</li><li>public health data</li>
+            </ul>
+            <p class="links">
+              <a href="https://github.com/maxvanzandt/Statewide-Mortallity-and-Medicaid">Repository</a>
+            </p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section">
+    <div class="wrap split">
+      <h2>Skills</h2>
+      <div class="split-body">
+        <div class="skillset">
+          <h3>Methods</h3>
+          <ul class="tags">
+            <li>Causal inference</li><li>Experimental design</li><li>A/B testing</li>
+            <li>Nonparametric methods</li><li>Survival analysis</li><li>Time series</li>
+            <li>Bayesian statistics</li><li>Statistical consulting</li>
+          </ul>
+        </div>
+        <div class="skillset">
+          <h3>Languages</h3>
+          <ul class="tags"><li>Python</li><li>R</li><li>SQL</li><li>Bash</li></ul>
+        </div>
+        <div class="skillset">
+          <h3>Python</h3>
+          <ul class="tags">
+            <li>pandas</li><li>numpy</li><li>scipy</li><li>scikit-learn</li><li>PyTorch</li>
+          </ul>
+        </div>
+        <div class="skillset">
+          <h3>R</h3>
+          <ul class="tags">
+            <li>tidyverse</li><li>Shiny</li><li>ggplot2</li><li>plotly</li>
+            <li>caret</li><li>xgboost</li><li>randomForest</li>
+          </ul>
+        </div>
+        <div class="skillset">
+          <h3>Tooling</h3>
+          <ul class="tags">
+            <li>Git</li><li>Quarto</li><li>LaTeX</li><li>Linux and WSL</li><li>VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section contact">
+    <div class="wrap split">
+      <h2>Contact</h2>
+      <div class="split-body">
+        <p class="contact-lede">
+          Open to product data science and biostatistics roles starting mid 2027, and to
+          internships before then. Happy to talk about experimentation, causal inference,
+          or why your A/B test is underpowered.
+        </p>
+        <ul class="contact-list">
+          <li><a href="mailto:REPLACE_WITH_EMAIL">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/REPLACE_WITH_LINKEDIN">LinkedIn</a></li>
+          <li><a href="https://github.com/maxvanzandt">GitHub</a></li>
+          <li><a href="assets/resume.pdf">Resume (PDF)</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>Built and maintained by Max Van Zandt. Hosted on GitHub Pages.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

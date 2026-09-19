@@ -1,0 +1,11 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# R / Python session files (in case anything gets copied in)
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
