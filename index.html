@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -30,7 +30,7 @@
   <div class="hero-text">
     <h1>Maximilian <span class="nowrap">Van Zandt</span></h1>
     <p class="lede">Applied statistician working on causal inference and experimentation.</p>
-    <p class="standfirst">I care about formulating precise, impactful questions, choosing the statistical methods that answer them, adding complexity only where it genuinely helps, and ending with a recommendation and a plan, while staying clear about what the data cannot tell you.</p>
+    <p class="standfirst">I care about formulating precise, impactful questions, choosing the statistical methods that answer them, adding complexity only where it helps, and ending with a recommendation and a plan, while staying clear about what the data cannot tell you.</p>
     <div class="hero-meta">
       <p>MA in Statistics &amp; Data Science, UC Berkeley, May 2027. BS in Statistics, University of Virginia, GPA 3.91.</p>
       <p>From the Washington DC area, now in Berkeley. Open to roles on either coast and in between.</p>
@@ -70,7 +70,7 @@
     </div>
     <div class="about-prose">
       <p>I am finishing an MA in Statistics and Data Science at UC Berkeley, where my coursework is built around causal inference and experimentation. The thread through everything I do is the same: answering questions through experimentation, probabilistic modeling, and inference. I have always been more interested in the why behind a method than the how.</p>
-      <p>Before Berkeley, I finished a BS in Statistics at UVA with a minor in philosophy, mostly analytic moral philosophy. The philosophy shows up more than you would expect: two of the projects below started as an argument I wanted to test by building it. In some ways minoring in philosophy is just a bit of fun. It is also more than that: the statistics degree builds a map of how we do statistics, and the philosophy sharpens the question of why we do it and for what purpose.</p>
+      <p>Before Berkeley, I finished a BS in Statistics at UVA with a minor in philosophy, mostly analytic moral philosophy. The philosophy shows up more than you would expect: two of the projects below started as an argument I wanted to understand by building it. In some ways minoring in philosophy is just a bit of fun. It is also more than that: the statistics degree builds a map of how we do statistics, and the philosophy sharpens the question of why we do it and for what purpose.</p>
       <p>That points at two kinds of work. In tech, experimentation at scale and causal inference on observational data. In pharma, the same core under a different constraint set, where you design the randomization yourself and the methodology is clinical trials.</p>
       <p>At Iridium, I was given one contact name and an open-ended mandate: work out why devices were not converting to activated subscriptions fast enough. There was no pipeline and no established methodology. I scoped it down to two time points, ship date and activation date, and when those turned out to live in separate systems I sent the data engineering team a sample SQL query to make clear exactly what was needed and to cut down the back and forth. Nonparametric survival analysis on censored, incomplete data surfaced provisioning lags of over 200 days. That escalated to the executive director level, became activation probability predictions that shaped supply chain and business planning across verticals, and grew into a dashboard initiative that later added a third time point. During that time, I also built an ML model predicting global flight routes using HDBSCAN clustering, which cut flight data pulls by 75%.</p>
       <p>At Biokind Analytics I led statistical consulting for healthcare nonprofits, on questions like risk factors for relapse of acute malnutrition in children, where much of the work is translating findings for people who do not work in statistics. Alongside that I took a full course in clinical trials methodology and wrote a Phase II protocol, including a detailed SAP, for an obesity drug RCT.</p>
@@ -161,7 +161,7 @@
         <div class="project-body">
           <span class="project-year">2025 &middot; Statistics capstone</span>
           <h4>Album Covers and Billboard Success</h4>
-          <p>Predicts Billboard 200 success from cover art alone. The team engineered a 70-dimensional visual feature space across 2,084 covers, using scikit-image for Sobel edge detection, Local Binary Patterns and HSV color statistics, plus YOLO for face and person detection. I worked mainly on the unsupervised side, K-means with PCA separating albums into edge complexity and color pattern clusters at a silhouette score of 0.525. The supervised models reached 0.87 ROC-AUC with L1-regularized logistic regression on a 417-album test set. Built with Haoting Yuan, Maxwell Elim, and Grant Zou.</p>
+          <p>Predicts Billboard 200 success from cover art alone. The team engineered a 70-dimensional visual feature space across 2,084 covers, using scikit-image for Sobel edge detection, Local Binary Patterns and HSV color statistics, plus YOLO for face and person detection. I worked mainly on the unsupervised side, extracting information from the pixels themselves and running K-means with PCA to separate albums into edge complexity and color pattern clusters at a silhouette score of 0.525. I also wrote the methods and limitations sections. The supervised models reached 0.87 ROC-AUC with L1-regularized logistic regression on a 417-album test set. Built with Haoting Yuan, Maxwell Elim, and Grant Zou.</p>
           <ul class="stack"><li>Python</li><li>scikit-learn</li><li>scikit-image</li><li>YOLO</li><li>PCA</li></ul>
           <p class="btn-row">
             <a class="btn" href="https://github.com/maxvanzandt/Album-Covers-and-Billboard-Success">Repository</a>
@@ -211,7 +211,7 @@
         <div class="project-body">
           <span class="project-year">2025</span>
           <h4>The Evolution of Virginia Lacrosse</h4>
-          <p>Follows five seasons of UVA men's lacrosse through a change in offensive coordinator, using goal differential, shooting and extra man efficiency, the distribution of scoring across players, and hustle metrics. Filter by conference and metric to check the argument yourself instead of taking my conclusions on faith.</p>
+          <p>Follows five seasons of UVA men's lacrosse through a change in offensive coordinator, using goal differential, shooting and extra man efficiency, the distribution of scoring across players, and hustle metrics. It is a full data-driven narrative rather than a single chart: the argument builds section by section, and you filter by conference and metric as you follow it, so you can check the reasoning yourself instead of taking my conclusions on faith.</p>
           <ul class="stack"><li>R</li><li>Shiny</li><li>plotly</li><li>ggplot2</li></ul>
           <p class="btn-row">
             <a class="btn primary" href="https://maxvanzandt.shinyapps.io/Visual-Storytelling-Portfolio">Run it live</a>
@@ -304,7 +304,7 @@
 <section id="contact" class="section"><div class="wrap split">
   <h2>Contact</h2>
   <div class="split-body">
-    <p class="contact-lede">Open to full-time statistician and data scientist roles from mid 2027. Most interested in experimentation and causal inference, in tech or pharma. I have internship experience in machine learning too. Happy to talk either way.</p>
+    <p class="contact-lede">Open to full-time statistician and data scientist roles for May 2027. Most interested in experimentation and causal inference, in tech or pharma. I have internship experience in machine learning too. Happy to talk either way!</p>
     <ul class="contact-list">
       <li><a href="mailto:maxvzandt@gmail.com">Email</a></li>
       <li><a href="https://www.linkedin.com/in/maxvanzandt">LinkedIn</a></li>
@@ -315,6 +315,6 @@
 </div></section>
 </main>
 <footer class="footer"><div class="wrap"><p>Built and maintained by Maximilian Van Zandt. Hosted on GitHub Pages.</p></div></footer>
-<script src="js/main.js?v=3"></script>
+<script src="js/main.js?v=4"></script>
 </body>
 </html>
