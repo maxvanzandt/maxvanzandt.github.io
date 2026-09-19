@@ -98,6 +98,8 @@ img { max-width: 100%; height: auto; }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: clamp(2rem, 5vw, 4rem); align-items: center; }
 @media (max-width: 880px) { .hero-grid { grid-template-columns: 1fr; } }
 
+.nowrap { white-space: nowrap; }
+
 .hero h1 {
   font-family: var(--serif); font-weight: 500;
   font-size: clamp(2.5rem, 6.4vw, 4.2rem);
@@ -206,7 +208,8 @@ img { max-width: 100%; height: auto; }
 
 .project-group { margin-bottom: clamp(3rem, 6vw, 4.5rem); }
 .project-group:last-child { margin-bottom: 0; }
-.group-head { border-top: 2px solid var(--ink); padding-top: .85rem; margin-bottom: 2.5rem; }
+.group-head { border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule);
+  padding-top: .85rem; padding-bottom: .9rem; margin-bottom: 2.5rem; }
 .group-head h3 { font-family: var(--serif); font-weight: 500; font-size: 1.28rem; margin: 0 0 .3rem; letter-spacing: -0.01em; }
 .group-head p { margin: 0; font-size: .89rem; color: var(--ink-soft); max-width: 58ch; }
 
